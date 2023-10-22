@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  ovh:
+    build:
+      context: ./ovh
+      dockerfile: dockerfile
+      
+  # azure:
+  # linode:
+  # digitalocean:
+  # dashboard:
+  # mysql:
+
